@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "NoSuggs",
+    "version": "1.0",
+    "description": "Block YouTube recommendations, Shorts, and Instagram Reels",
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "host_permissions": [
+      "*://*.youtube.com/*",
+      "*://*.instagram.com/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*", "*://*.instagram.com/*"],
+        "css": ["styles.css"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }

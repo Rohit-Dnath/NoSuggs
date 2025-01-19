@@ -1,0 +1,4 @@
+/* Custom styles for blocked elements */
+.blocked-content {
+    display: none !important;
+  }
