@@ -17,12 +17,12 @@ A Chrome extension that helps you stay focused by blocking distracting content o
 - 🔔 Desktop notifications when timer completes
 - ⏯️ Start, pause, and reset controls
 
-## 🖥️ Screenshots
+<!-- ## 🖥️ Screenshots
 
 <div align="center">
   <img src="./assets/screenshot1.png" alt="NoSuggs Main Interface" width="300"/>
   <img src="./assets/screenshot2.png" alt="NoSuggs in Action" width="300"/>
-</div>
+</div> -->
 
 ## 🚀 Installation
 
